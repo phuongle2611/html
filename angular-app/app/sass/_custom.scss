@@ -1,0 +1,58 @@
+// Your custom SCSS should be written here...
+
+// Screen reader only
+.sr-only{
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	padding: 0;
+	margin: -1px;
+	overflow: hidden;
+	clip: rect(0,0,0,0);
+	border: 0;
+}
+
+.right-align{
+	text-align:right;
+}
+
+
+//Layout classes
+.row-small-gutter{
+	clear:both;
+	padding: 5px;
+	margin-top:20px;
+}
+
+.main{
+	margin-top:20px;
+}
+
+.two-across{
+	@include fancytiles(2,2,2);
+	min-height:40px;
+}
+
+.menu-thumb{
+	text-align:center;
+	i {
+		font-size: 60px;
+		line-height:1.5em;
+	}
+	a{
+		@include border-radius(3px);
+		background-color: darken($global-bg-color, 2%);
+		border-bottom:1px solid lighten($global-bg-color, 3%);
+		border-left: 1px solid darken($global-bg-color, 5%);
+		border-right:1px solid lighten($global-bg-color, 3%);
+		border-top: 1px solid darken($global-bg-color, 5%);
+		display:block;
+		padding-bottom:60px;
+		padding-top:40px;
+		&:hover{
+			background-color: darken($global-bg-color, 4%);
+		}
+	}
+}
+
+

@@ -1,0 +1,9 @@
+it:
+    CarouselPage:
+        SINGULARNAME: 'Pagina carosello'
+        PLURALNAME: 'Pagine carosello'
+        DESCRIPTION: 'Visualizzazione a rotazione di una serie di immagini'
+        db_Images: 'Lista immagini'
+        db_Captions: 'Mostra la didascalia nelle immagini'
+        db_Width: 'Larghezza immagini'
+        db_Height: 'Altezza immagini'

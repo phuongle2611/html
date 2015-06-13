@@ -1,0 +1,35 @@
+
+.header {
+	@include line-and-height(45px);
+	background-color: $navbar-color;
+	color: $navbar-link-color;
+	width:100%;
+	text-align:center;
+	a {
+		color: $navbar-link-color;
+	}
+	.home-link, .logout-link{
+		padding-left:5px;
+		margin-right:-45px; //fix centering of heading
+		display:block;
+		float:left;
+		font-size:1.5em;
+	}
+	.home-link.home{
+		display:none;
+	}
+	.logout-link{
+		display:none;
+		&.home{
+			display:block;
+		}
+	}
+	.logo {
+		padding-top: 5px;
+		line-height:45px;
+		height:38px;
+	}
+	.page-title {
+		line-height:38px;
+	}
+}

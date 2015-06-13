@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en" ng-app="springboardApp">
+	<head>
+		<meta charset="utf-8">
+		<title>Springboard</title>
+		<meta name="viewport" id="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=10.0,initial-scale=1.0" />
+		<link rel="stylesheet" href="../css/app.css"/>
+	</head>
+	<body>
+		<div ng-view>
+
+		</div>
+
+		<nav class="header">
+			<a href="/" class="logout-link"><i class="icon-block"></i></a>
+			<a href="/" class="home-link"><i class="icon-home"></i></a>
+			<h1 class="page-title"><span class="first">Share</span> a message</h1>
+			<img class="logo sr-only" src="../img/logo.png" alt="Springboard*">
+		</nav>
+		<section class="row main">
+			<article class="columns six">
+				<h2><span class="first">Pick</span> a board</h2>
+				<form>
+					<div class="field">
+						<div class="picker">
+							<select class="fly-out">
+								<option value="#" default selected disabled>Choose a board</option>
+								<option>option 1</option>
+								<option>option 2</option>
+								<option>option 3</option>
+							</select>
+						</div>
+					</div>
+					<div class="field">
+						<input class="input" type="text" placeholder="Title" />
+					</div>
+					<div class="field">
+						<textarea class="editor larger input textarea" placeholder="Your message"></textarea>
+					</div>
+					<div class="row">
+						<button class="columns rounded six btn primary metro medium">
+							<span>Add Photo</span>
+						</button>
+					</div>
+					<div class="actions row">
+						<button class="columns polished four rounded btn success metro medium">
+							<span>Post</span>
+						</button>
+						<button class="columns polished two rounded btn default metro medium">
+							<span>Cancel</span>
+						</button>
+
+					</div>
+				</form>
+			</article>
+		</section>
+
+
+		<script src="../lib/angular/angular.js"></script>
+		<script src="../lib/angular/angular-route.js"></script>
+		<script src="../../../content-api/javascript/angular/services.js"></script>
+		<script src="../js/app.js"></script>
+		<script src="../js/services.js"></script>
+		<script src="../js/controllers.js"></script>
+		<script src="../js/filters.js"></script>
+		<script src="../js/directives.js"></script>
+	</body>
+</html>

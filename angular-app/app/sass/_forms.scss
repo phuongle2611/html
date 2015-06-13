@@ -1,0 +1,85 @@
+/*
+ * Custom form styling
+ */
+
+.actions{
+  margin-top:25px;
+}
+
+.btn span{
+  color:#fff;
+  font-weight:normal;
+}
+
+.btn.metro.polished{
+  @include box-shadow(0px 1px 1px 0px darken($global-bg-color, 25%));
+  &::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+  }
+  span{
+    @include border-radius(3px);
+    display:block;
+    border-top:2px solid rgba(#fff, 0.3);
+    text-transform: uppercase;
+    font-size: 14px;
+    padding-top:2px;
+    line-height:2em;
+  }
+}
+
+.field {
+  .input {
+    @include border-radius(3px);
+    @include font-size($norm);
+    @include line-and-height(height-calc($norm));
+    background: darken($global-bg-color, 2%);
+    border-bottom: 1px solid lighten($global-bg-color, 3%);
+    border-left: 1px solid darken($global-bg-color, 5%);
+    border-right: 1px solid lighten($global-bg-color, 3%);
+    border-top: 1px solid darken($global-bg-color, 5%);
+    font-size:14px;
+  }
+  .input.textarea {
+    height: auto;
+    &.editor.larger{
+      height:200px;
+    }
+  }
+}
+
+/* Form Picker Element (<select>) */
+
+.picker {
+  @include box-sizing(border-box);
+  @include border-radius(3px);
+  width:100%;
+  border-top:2px solid rgba(#fff, 0.5);
+  border-left: 2px solid rgba(#fff, 0.5);
+  border-bottom: 2px solid darken($global-bg-color, 8%);
+  border-right: 2px solid darken($global-bg-color, 8%);
+  background:darken($global-bg-color, 2%);
+  &:after {
+    //Keep this to replace the icon if needed
+    color: $primary-color;
+    content: "\25BE";
+    font-family: $icons;
+    margin-top: -12px;
+    position:absolute;
+    right: 8%;
+    top: 50%;
+    z-index: 0;
+  }
+  select {
+    @include box-sizing(border-box);
+    -moz-appearance: none;
+    appearance: none;
+    font-size:13px;
+    width: 120%;
+    option[default] {
+      color: #ccc;
+    }
+  }
+}
+
+
