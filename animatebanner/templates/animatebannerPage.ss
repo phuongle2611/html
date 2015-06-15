@@ -12,7 +12,7 @@
 <% include Navbar %>
 
 <div ng-app="myApp" ng-controller="myCtrl">
-	<sprite-sheet-canvas width="windowWidth" height="gameHeight"></sprite-sheet-canvas>
+	<sprite-sheet-canvas width="gameWidth" height="gameHeight"></sprite-sheet-canvas>
 </div>
 
 <div class="container">

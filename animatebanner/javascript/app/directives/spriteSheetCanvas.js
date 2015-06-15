@@ -72,7 +72,7 @@ app.directive('spriteSheetCanvas', ['loaderSvc','Sky', 'Ground', 'Hill', 'Charac
                 }
                 function handleJumpStart() {
                     if (scope.status === "running") {
-                        createjs.Sound.play("jumpingSound");
+                        //createjs.Sound.play("jumpingSound");
                         grant.playAnimation("jump");
                     }
                 }
