@@ -66,7 +66,7 @@ app.directive('spriteSheetCanvas', ['loaderSvc','Sky', 'Ground', 'Hill', 'Charac
                     }
                     if (event.keyCode === 37) {//if keyCode is "Left"
                         createjs.Ticker.removeEventListener("tick", tick);
-                        createjs.Sound.stop();
+                        //createjs.Sound.stop();
                         scope.status = "paused";
                     }
                 }
