@@ -10,10 +10,6 @@
 		"silverstripe-themes/module_bootstrap": "dev-master",
 		"silverstripe/userforms": "*",
 		"phuongle/silverstripe_member_registration": "dev-master",
-		"unisolutions/silverstripe-uniads": "dev-master",
-		"entidi/silverstripe-carousel": "dev-master",
-		"entidi/silverstrap": "dev-master",
-		"silverstripe-springboard/angular-app": "dev-master"
 	},
 	"require-dev": {
 		"phpunit/PHPUnit": "~3.7@stable"
