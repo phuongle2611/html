@@ -9,7 +9,7 @@
 		"rywa/silverstripe-foundation": "dev-master",
 		"silverstripe-themes/module_bootstrap": "dev-master",
 		"silverstripe/userforms": "*",
-		"phuongle/silverstripe_member_registration": "dev-master",
+		"phuongle/silverstripe_member_registration": "dev-master"
 	},
 	"require-dev": {
 		"phpunit/PHPUnit": "~3.7@stable"
