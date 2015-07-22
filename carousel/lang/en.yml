@@ -1,9 +1,0 @@
-en:
-    CarouselPage:
-        SINGULARNAME: 'Carousel page'
-        PLURALNAME: 'Carousel pages'
-        DESCRIPTION: 'Show in turn a series of images'
-        db_Images: 'Image list'
-        db_Captions: 'Show captions inside images'
-        db_Width: 'Image width'
-        db_Height: 'Image height'

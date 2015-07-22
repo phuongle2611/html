@@ -1,10 +1,4 @@
-
-
 /* Navbar language selector */
-.navbar {
-	background-color: black !important;
-	margin-bottom: 0px;
-}
 .navbar .ss-lang {
 	font-family: roman;
 	font-style: italic;
@@ -350,20 +344,3 @@ ul.nav-stacked ul > li:last-child:visible > a {
         .cboxSlideshow_on #cboxSlideshow:hover{background-position:-150px 0px;}
         .cboxSlideshow_off #cboxSlideshow{background-position:-150px -25px; right:27px;}
         .cboxSlideshow_off #cboxSlideshow:hover{background-position:-125px 0px;}
-
-
-
-
-/*************************carousel***/
-.carousel{
-	width: 100%;
-}
-
-.sticky {  
-    position: fixed;  
-    width: 100%;  
-    left: 0;  
-    top: 0;  
-    z-index: 100;  
-    border-top: 0;  
-}  
